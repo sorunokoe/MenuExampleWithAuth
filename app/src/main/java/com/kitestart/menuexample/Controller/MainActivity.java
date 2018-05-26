@@ -77,7 +77,9 @@ public class MainActivity extends AppCompatActivity
 
         } else if (id == R.id.nav_slideshow) {
 
-        } else if (id == R.id.nav_manage) {
+        } else if (id == R.id.nav_my_location) {
+
+            startActivity(new Intent(this, MyLocationController.class));
 
         } else if (id == R.id.nav_sign_out){
             if( Constants.shared.removeCredentials() ){
