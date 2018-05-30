@@ -14,6 +14,7 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 import com.kitestart.menuexample.Constants.Constants;
+import com.kitestart.menuexample.Controller.Repos.ListReposController;
 import com.kitestart.menuexample.R;
 
 public class MainActivity extends AppCompatActivity
@@ -69,6 +70,9 @@ public class MainActivity extends AppCompatActivity
         if (id == R.id.nav_camera) {
             // Handle the camera action
         } else if (id == R.id.nav_gallery) {
+
+            Intent intent = new Intent(this, ListReposController.class);
+            startActivity(intent);
 
         } else if(id == R.id.nav_user_list){
 

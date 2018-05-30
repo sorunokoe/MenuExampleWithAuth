@@ -46,8 +46,8 @@
         <activity
             android:name=".Controller.MyLocationController"
             android:label="@string/title_activity_my_location_controller" />
-        <activity android:name=".Controller.SignUpController">
-        </activity>
+        <activity android:name=".Controller.SignUpController"></activity>
+        <activity android:name=".Controller.Repos.ListReposController"></activity>
     </application>
 
 </manifest>
